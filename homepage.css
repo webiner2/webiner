@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(to left,rgb(39, 36, 36),rgb(49, 42, 42));
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+   
+    padding: 5px;
+    margin: 10px;
+}
+.nav{
+    margin: 10px;
+    background-color: black;
+    block-size: auto;
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: beige;
+}
+.nav a:hover{
+    background-color: blue;
+    color: green;
+}
+.section1{
+    height: 200px;
+    margin: 10px;
+    background-color: blueviolet;
+    float: left;
+    width: 50%;
+}
+.chat{
+    background-color: white;
+    float: right;
+    padding: 20px;
+    color: white;
+    border: 20px solid black; height: 600px;
+    width: 40%; 
+}
+.chat h1{
+    float: left;
+    color: rgb(204, 228, 204);
+    background-color: green;
+    margin: 10px;
+    text-align: left;
+    
+}
+.chat1 {
+    color: rgb(10, 10, 10);
+    background-color: rgb(235, 221, 221);
+float: right;
+	bottom: 0;
+	
+    position: absolute;
+}
+.section2{
+    background-color: blue;
+    padding: 20px;
+margin: 20px;
+float: left;
+height: 200px;
+width: 80%;
+}
